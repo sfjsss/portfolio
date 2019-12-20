@@ -1,8 +1,12 @@
 import React from 'react';
 
+import classes from './Header.module.css';
+
 const header = () => {
     return (
-        <header></header>
+        <header className={classes.Header}>
+            some text...
+        </header>
     )
 }
 
