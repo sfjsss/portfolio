@@ -17,7 +17,7 @@ const header = () => {
                     <span className={classes.HeadingPrimarySub}>I'm a full-stack developer and a UX designer</span>
                 </h1>
 
-                <Button color="White">Check out my works</Button>
+                <Button color="White" animated>Check out my works</Button>
             </div>
 
             

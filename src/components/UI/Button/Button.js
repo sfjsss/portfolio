@@ -3,7 +3,8 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const button = (props) => {
-    let buttonClass = [classes.Button, classes[props.color]].join(' ');
+    let buttonAnimation = props.animated ? classes.Animated : null;
+    let buttonClass = [classes.Button, classes[props.color], buttonAnimation].join(' ');
 
     return (
         <a href="#"className={buttonClass}>{props.children}</a>
