@@ -6,6 +6,7 @@
     display: inline-block;
     border-radius: 100px;
     transition: all .2s;
+    position: relative;
 }
 
 .Button:hover {
@@ -22,4 +23,28 @@
     background-color: #fff;
     color: #777;
 }
+
+.White::after {
+    background-color: #fff;
+}
+
+.Button::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.Button:hover::after {
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+
 
