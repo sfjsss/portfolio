@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './Header.module.css';
 import logo from '../../assets/img/logo.png';
+import Button from '../UI/Button/Button';
 
 const header = () => {
     return (
@@ -15,6 +16,8 @@ const header = () => {
                     <span className={classes.HeadingPrimaryMain}>Hi, I'm Tianyu Li</span>
                     <span className={classes.HeadingPrimarySub}>I'm a full-stack developer and a UX designer</span>
                 </h1>
+
+                <Button color="White">Check out my works</Button>
             </div>
 
             
