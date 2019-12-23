@@ -31,24 +31,24 @@
     text-align: center;
     backface-visibility: hidden;
     margin-bottom: 6rem;
-}
 
-.HeadingPrimaryMain {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-}
+    &Main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
 
-.HeadingPrimarySub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    &Sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
 }
 
 @keyframes moveInLeft {
