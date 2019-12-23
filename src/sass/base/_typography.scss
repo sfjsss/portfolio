@@ -40,3 +40,13 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
