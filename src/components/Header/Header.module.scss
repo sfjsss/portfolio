@@ -1,6 +1,6 @@
 @import '../../App.scss';
 
-.Header {
+.header {
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../../assets/img/hero.png);
     background-size: cover;
@@ -8,17 +8,17 @@
     position: relative;
 }
 
-.LogoContainer {
+.logo-container {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.Logo {
+.logo {
     height: 10rem;
 }
 
-.TextBox {
+.text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -26,28 +26,5 @@
     text-align: center;
 }
 
-.HeadingPrimary {
-    color: $color-white;
-    text-align: center;
-    backface-visibility: hidden;
-    margin-bottom: 6rem;
 
-    &Main {
-        display: block;
-        font-size: 6rem;
-        font-weight: 400;
-        animation-name: moveInLeft;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-    }
-
-    &Sub {
-        display: block;
-        font-size: 2rem;
-        font-weight: 700;
-        animation-name: moveInRight;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-    }
-}
 

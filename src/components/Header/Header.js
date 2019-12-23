@@ -6,18 +6,18 @@ import Button from '../UI/Button/Button';
 
 const header = () => {
     return (
-        <header className={classes.Header}>
-            <div className={classes.LogoContainer}>
-                <img src={logo} alt="logo" className={classes.Logo} />
+        <header className={classes.header}>
+            <div className={classes['logo-container']}>
+                <img src={logo} alt="logo" className={classes.logo} />
             </div>
 
-            <div className={classes.TextBox}>
-                <h1 className={classes.HeadingPrimary}>
-                    <span className={classes.HeadingPrimaryMain}>Hi, I'm Tianyu Li</span>
-                    <span className={classes.HeadingPrimarySub}>I'm a full-stack developer and a UX designer</span>
+            <div className={classes['text-box']}>
+                <h1 className={classes['heading-primary']}>
+                    <span className={classes['heading-primary--main']}>Hi, I'm Tianyu Li</span>
+                    <span className={classes['heading-primary--sub']}>I'm a full-stack developer and a UX designer</span>
                 </h1>
 
-                <Button color="White" animated>Check out my works</Button>
+                <Button color="white" animated>Check out my works</Button>
             </div>
 
             
