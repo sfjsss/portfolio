@@ -7,7 +7,7 @@ const mySkills = () => {
     return (
         <section className={classes['my-skills']}>
             <div className={`${classes['u-center-text']} ${classes['u-margin-bottom-big']}`}>
-                <h2 className={classes['heading-secondary']}>
+                <h2 id="mySkill" className={classes['heading-secondary']}>
                     My Skills
                 </h2>
             </div>
@@ -43,7 +43,7 @@ const mySkills = () => {
                         Heuristic Evaluation, C&C Analysis, Contextual Inquiry, Affinity Mapping, Journey Mapping, Card Sorting, Site Maps, Responsive Design, Sketch, Principle, Wireframing, Usability Testing, Prototyping
                     </p>
 
-                    <Button style="btn-text">Download my resume &rarr;</Button>
+                    <Button btnStyle="btn-text">Download my resume &rarr;</Button>
                 </div>
                 <div className={classes['col-1-of-2']}>
                     image-content
