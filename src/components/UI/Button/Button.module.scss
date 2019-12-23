@@ -1,6 +1,6 @@
 @import '../../../App.scss';
 
-.Button {
+.button {
     
     &:link,
     &:visited {
@@ -43,7 +43,7 @@
     }
 }
 
-.White {
+.white {
     background-color: $color-white;
     color: $color-grey-dark;
 
@@ -52,7 +52,7 @@
     }
 }
 
-.Animated {
+.animated {
     animation-name: moveInBottom;
     animation-duration: .5s;
     animation-timing-function: ease-out .75s;
