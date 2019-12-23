@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Header.module.css';
+import classes from './Header.module.scss';
 import logo from '../../assets/img/logo.png';
 import Button from '../UI/Button/Button';
 
