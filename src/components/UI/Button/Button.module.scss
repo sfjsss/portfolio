@@ -1,3 +1,5 @@
+@import '../../../App.scss';
+
 .Button:link,
 .Button:visited {
     text-transform: uppercase;
@@ -21,12 +23,12 @@
 }
 
 .White {
-    background-color: #fff;
-    color: #777;
+    background-color: $color-white;
+    color: $color-grey-dark;
 }
 
 .White::after {
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 .Button::after {
