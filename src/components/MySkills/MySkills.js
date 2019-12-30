@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './MySkills.module.scss';
 import Button from '../UI/Button/Button';
+import Composition from './Composition/Composition';
 
 const mySkills = () => {
     return (
@@ -46,7 +47,7 @@ const mySkills = () => {
                     <Button btnStyle="btn-text">Download my resume &rarr;</Button>
                 </div>
                 <div className={classes['col-1-of-2']}>
-                    image-content
+                    <Composition />
                 </div>
             </div>
         </section>
