@@ -11,7 +11,8 @@ import react_icon from '../../../assets/img/skill_icons/icon-react-240.png';
 import angular_icon from '../../../assets/img/skill_icons/icon-angular-240.png';
 import mysql_icon from '../../../assets/img/skill_icons/icon-mysql-240.png';
 import mongodb_icon from '../../../assets/img/skill_icons/icon-mongodb-240.png';
-
+import sketch_icon from '../../../assets/img/skill_icons/icon-sketch-240.png';
+import principal_icon from '../../../assets/img/skill_icons/icon-principal-240.png';
 
 const composition = () => {
     return (
@@ -26,6 +27,8 @@ const composition = () => {
             <img src={angular_icon} className={classes.photo}/>
             <img src={mysql_icon} className={classes.photo}/>
             <img src={mongodb_icon} className={classes.photo}/>
+            <img src={sketch_icon} className={classes.photo}/>
+            <img src={principal_icon} className={classes.photo}/>
         </div>
     )
 }
