@@ -1,0 +1,24 @@
+@import '../../App.scss';
+
+.process {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../../assets/img/hero2.png);
+    background-size: cover;
+}
+
+.process-box {
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+    &__icon {
+        margin-bottom: .5rem;
+    }
+
+    &__text {
+
+    }
+}
