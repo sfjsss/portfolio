@@ -4,6 +4,12 @@
     padding: 20rem 0;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../../assets/img/hero2.png);
     background-size: cover;
+    transform: skewY(-5deg);
+    margin-top: -10rem;
+
+    & > * {
+        transform: skewY(5deg);
+    }
 }
 
 .process-box {
@@ -13,12 +19,16 @@
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+
+    // height: 40rem;
 
     &__icon {
         margin-bottom: .5rem;
     }
 
-    &__text {
-
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
     }
+
 }
