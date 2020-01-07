@@ -15,7 +15,7 @@ const button = (props) => {
     let buttonClass = [buttonStyle, classes[props.color], buttonAnimation].join(' ');
 
     return (
-        <Link smooth to="/#mySkill" className={buttonClass}>{props.children}</Link>
+        <Link smooth to="/#myWorks" className={buttonClass}>{props.children}</Link>
     )
 }
 
