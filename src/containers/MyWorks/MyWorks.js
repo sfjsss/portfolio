@@ -5,7 +5,13 @@ import Project from './Project/Project';
 
 class MyWorks extends Component {
     state = {
-        codingProjects: [1,2,3,4]
+        codingProjects: [
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/job_search_tracker.png",
+                projectName: "Job Search Tracker",
+                stack: ["Java", "Spring Boot", "JSP", "MySQL"]
+            }
+        ]
     }
 
     render() {
