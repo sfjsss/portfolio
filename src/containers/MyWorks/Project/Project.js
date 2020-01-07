@@ -1,6 +1,7 @@
 import React from 'react';
 
 import classes from './Project.module.scss';
+import Button from '../../../components/UI/Button/Button';
 
 const project = (props) => {
     const picture_style = {
@@ -26,7 +27,12 @@ const project = (props) => {
                 </div>
             </div>
             <div className={[classes['project__side'], classes['project__side--back']].join(' ')}>
-                back of the card
+                <div className={classes['project__intro']}>
+                    <p className={classes['project__summary']}>
+                        {props.information.summary}
+                    </p>
+                    <Button btnStyle="btn" color="white" animated>Learn More</Button>
+                </div>
             </div>
         </div>
     )

@@ -9,7 +9,20 @@ class MyWorks extends Component {
             {
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/job_search_tracker.png",
                 projectName: "Job Search Tracker",
-                stack: ["Java", "Spring Boot", "JSP", "MySQL"]
+                stack: ["Java", "Spring Boot", "JSP", "MySQL"],
+                summary: "A web app that helps users track and analyze their job searching progress."
+            },
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/trivia_warrior.png",
+                projectName: "Trivia Warrior",
+                stack: ["JavaScript", "Node Express", "Angular", "Socket.io"],
+                summary: "A real-time multiplayer trivia game where players can select their own question categories."
+            },
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/caloriePedia.png",
+                projectName: "CaloriePedia",
+                stack: ["Python", "Django", "YelpAPI", "MySQL"],
+                summary: "A web app that helps users track their daily calorie intake along with their body fat percent and weight."
             }
         ]
     }
