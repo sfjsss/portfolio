@@ -22,5 +22,9 @@
     justify-content: space-between;
 
     @include clearfix;
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
