@@ -26,7 +26,24 @@ class MyWorks extends Component {
             }
         ],
         uxProjects: [
-            
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/artist_craftsman_supply.jpg",
+                projectName: "Artist & Craftsman",
+                stack: ["User Survey", "Heuristic Evaluation", "User Interview", "User Scenario"],
+                summary: "Customers have been complaining about the online shopping experience not being smooth enough. The goal of this project was to redesign the website and improve user experience."
+            },
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/the_boring_company.jpg",
+                projectName: "The Boring Company",
+                stack: ["C&C Analysis", "User Survey", "User Interview", "User Scenario"],
+                summary: "The Boring company is building an underground transportation service to overcome rush hour traffic especially in LA. The goal of this project was to design an e-ticketing system for them."
+            },
+            {
+                bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/forklift.jpg",
+                projectName: "Forklift",
+                stack: ["C&C Analysis", "Heuristic Evaluation", "User Interview", "Affinity Mapping"],
+                summary: "According to the client, new users had challenges understanding how to use the platform even after a walk-through. The client wanted a more intuitive interface to improve usability. A redesign was conducted."
+            }
         ],
         projectsType: "coding"
     }
@@ -42,6 +59,7 @@ class MyWorks extends Component {
     render() {
         let codingProjectsClass;
         let uxProjectsClass;
+        
         if (this.state.projectsType == "coding") {
             codingProjectsClass = classes['heading-secondary']
             uxProjectsClass = classes['heading-secondary--deactivated']
@@ -54,6 +72,19 @@ class MyWorks extends Component {
         let displayedCodingProjects = this.state.codingProjects.map(project => {
             return <Project information={project} />
         })
+
+        let displayedUXProjects = this.state.uxProjects.map(project => {
+            return <Project information={project} />
+        })
+
+        let displayedProjects = displayedCodingProjects
+
+        if (this.state.projectsType === "coding") {
+            displayedProjects = displayedCodingProjects
+        }
+        else {
+            displayedProjects = displayedUXProjects
+        }
 
         return (
             <section className={classes['my-works']}>
@@ -70,7 +101,7 @@ class MyWorks extends Component {
                 </div>
 
                 <div className={classes['projects']}>
-                    {displayedCodingProjects}
+                    {displayedProjects}
                 </div>
             </section>
         )
