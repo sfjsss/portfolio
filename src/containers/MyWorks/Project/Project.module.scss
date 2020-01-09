@@ -10,6 +10,10 @@
     position: relative;
     height: 50rem;
 
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
     &__side {
         height: 50rem;
         transition: all .8s ease;

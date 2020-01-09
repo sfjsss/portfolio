@@ -7,18 +7,21 @@ class MyWorks extends Component {
     state = {
         codingProjects: [
             {
+                id: "code01",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/job_search_tracker.png",
                 projectName: "Job Search Tracker",
                 stack: ["Java", "Spring Boot", "JSP", "MySQL"],
                 summary: "A web app that helps users track and analyze their job searching progress."
             },
             {
+                id: "code02",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/trivia_warrior.png",
                 projectName: "Trivia Warrior",
                 stack: ["JavaScript", "Node Express", "Angular", "Socket.io"],
                 summary: "A real-time multiplayer trivia game where players can select their own question categories."
             },
             {
+                id: "code03",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/caloriePedia.png",
                 projectName: "CaloriePedia",
                 stack: ["Python", "Django", "YelpAPI", "MySQL"],
@@ -27,18 +30,21 @@ class MyWorks extends Component {
         ],
         uxProjects: [
             {
+                id: "ux01",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/artist_craftsman_supply.jpg",
                 projectName: "Artist & Craftsman",
                 stack: ["User Survey", "Heuristic Evaluation", "User Interview", "User Scenario"],
                 summary: "Customers have been complaining about the online shopping experience not being smooth enough. The goal of this project was to redesign the website and improve user experience."
             },
             {
+                id: "ux02",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/the_boring_company.jpg",
                 projectName: "The Boring Company",
                 stack: ["C&C Analysis", "User Survey", "User Interview", "User Scenario"],
                 summary: "The Boring company is building an underground transportation service to overcome rush hour traffic especially in LA. The goal of this project was to design an e-ticketing system for them."
             },
             {
+                id: "ux03",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/forklift.jpg",
                 projectName: "Forklift",
                 stack: ["C&C Analysis", "Heuristic Evaluation", "User Interview", "Affinity Mapping"],
@@ -59,6 +65,7 @@ class MyWorks extends Component {
     render() {
         let codingProjectsClass;
         let uxProjectsClass;
+        let displayedProjects
         
         if (this.state.projectsType == "coding") {
             codingProjectsClass = classes['heading-secondary']
@@ -69,21 +76,15 @@ class MyWorks extends Component {
             uxProjectsClass = classes['heading-secondary']
         }
 
-        let displayedCodingProjects = this.state.codingProjects.map(project => {
-            return <Project information={project} />
-        })
-
-        let displayedUXProjects = this.state.uxProjects.map(project => {
-            return <Project information={project} />
-        })
-
-        let displayedProjects = displayedCodingProjects
-
         if (this.state.projectsType === "coding") {
-            displayedProjects = displayedCodingProjects
+            displayedProjects = this.state.codingProjects.map(project => {
+                return <Project information={project} />
+            })
         }
         else {
-            displayedProjects = displayedUXProjects
+            displayedProjects = this.state.uxProjects.map(project => {
+                return <Project information={project} />
+            })
         }
 
         return (
