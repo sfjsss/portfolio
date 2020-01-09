@@ -67,7 +67,7 @@ class MyWorks extends Component {
         let uxProjectsClass;
         let displayedProjects
         
-        if (this.state.projectsType == "coding") {
+        if (this.state.projectsType === "coding") {
             codingProjectsClass = classes['heading-secondary']
             uxProjectsClass = classes['heading-secondary--deactivated']
         }
@@ -78,12 +78,12 @@ class MyWorks extends Component {
 
         if (this.state.projectsType === "coding") {
             displayedProjects = this.state.codingProjects.map(project => {
-                return <Project information={project} />
+                return <Project key={project.id} information={project} />
             })
         }
         else {
             displayedProjects = this.state.uxProjects.map(project => {
-                return <Project information={project} />
+                return <Project key={project.id} information={project} />
             })
         }
 

@@ -9,7 +9,7 @@ const project = (props) => {
     }
 
     return (
-        <div key={props.information.id} className={classes['project']}>
+        <div className={classes['project']}>
             <div className={[classes['project__side'], classes['project__side--front']].join(' ')}>
                 <div className={classes['project__picture']} style={picture_style}>
                     &nbsp;

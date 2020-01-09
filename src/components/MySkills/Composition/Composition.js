@@ -17,18 +17,18 @@ import principal_icon from '../../../assets/img/skill_icons/icon-principal-240.p
 const composition = () => {
     return (
         <div className={classes.composition}>
-            <img src={python_icon} className={classes.photo}/>
-            <img src={javaScript_icon} className={classes.photo}/>
-            <img src={java_icon} className={classes.photo}/>
-            <img src={django_icon} className={classes.photo}/>
-            <img src={node_icon} className={classes.photo}/>
-            <img src={spring_icon} className={classes.photo}/>
-            <img src={react_icon} className={classes.photo}/>
-            <img src={angular_icon} className={classes.photo}/>
-            <img src={mysql_icon} className={classes.photo}/>
-            <img src={mongodb_icon} className={classes.photo}/>
-            <img src={sketch_icon} className={classes.photo}/>
-            <img src={principal_icon} className={classes.photo}/>
+            <img src={python_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={javaScript_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={java_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={django_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={node_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={spring_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={react_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={angular_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={mysql_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={mongodb_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={sketch_icon} className={classes.photo} alt="skill_icon"/>
+            <img src={principal_icon} className={classes.photo} alt="skill_icon"/>
         </div>
     )
 }
