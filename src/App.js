@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import MySkills from './components/MySkills/MySkills';
 import Process from './components/Process/Process';
 import MyWorks from './containers/MyWorks/MyWorks';
+import ContactMe from './containers/ContactMe/ContactMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <MySkills />
         <Process />
         <MyWorks />
+        <ContactMe />
       </div>
     </BrowserRouter>
   );
