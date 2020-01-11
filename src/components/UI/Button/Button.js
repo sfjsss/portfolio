@@ -14,9 +14,15 @@ const button = (props) => {
     }
     let buttonClass = [buttonStyle, classes[props.color], buttonAnimation].join(' ');
 
-    return (
-        <Link smooth to="/#myWorks" className={buttonClass}>{props.children}</Link>
-    )
+    let output;
+    if (props.btnType === 'link') {
+        output = <Link smooth to="/#myWorks" className={buttonClass}>{props.children}</Link>
+    } 
+    else {
+        output = <button className={buttonClass}>{props.children}</button>
+    }
+
+    return output;
 }
 
 export default button;

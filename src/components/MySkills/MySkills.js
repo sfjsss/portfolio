@@ -44,7 +44,7 @@ const mySkills = () => {
                         Heuristic Evaluation, C&C Analysis, Contextual Inquiry, Affinity Mapping, Journey Mapping, Card Sorting, Site Maps, Responsive Design, Sketch, Principle, Wireframing, Usability Testing, Prototyping
                     </p>
 
-                    <Button btnStyle="btn-text">Download my resume &rarr;</Button>
+                    <Button btnType="link" btnStyle="btn-text">Download my resume &rarr;</Button>
                 </div>
                 <div className={classes['col-1-of-2']}>
                     <Composition />

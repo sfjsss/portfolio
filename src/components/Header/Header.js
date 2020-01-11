@@ -17,7 +17,7 @@ const header = () => {
                     <span className={classes['heading-primary--sub']}>I'm a full-stack developer and a UX designer</span>
                 </h1>
 
-                <Button btnStyle="btn" color="white" animated>Check out my works</Button>
+                <Button btnType="link" btnStyle="btn" color="white" animated>Check out my works</Button>
             </div>
 
             
