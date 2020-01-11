@@ -10,7 +10,7 @@ class ContactMe extends Component {
                     <div className={classes.contact}>
                         <div className={classes['contact__form']}>
                             <form className={classes.form}>
-                                <div className={classes['u-margin-bottom-small']}>
+                                <div className={classes['u-margin-bottom-medium']}>
                                     <h2 className={classes['heading-secondary']}>
                                         Let's work together
                                     </h2>
@@ -24,7 +24,7 @@ class ContactMe extends Component {
                                     <label htmlFor='email' className={classes['form__label']}>Email</label>
                                 </div>
                                 <div className={classes['form__group']}>
-                                    <textarea id='message' className={classes['form__message']} placeholder='message'></textarea>
+                                    <textarea rows='3' id='message' className={classes['form__message']} placeholder='message'></textarea>
                                     <label htmlFor='message' className={classes['form__label']}>Message</label>
                                 </div>
                             </form>
