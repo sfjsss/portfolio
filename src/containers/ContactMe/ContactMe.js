@@ -10,22 +10,22 @@ class ContactMe extends Component {
                     <div className={classes.contact}>
                         <div className={classes['contact__form']}>
                             <form className={classes.form}>
-                                <div className={classes['u-margin-bottom-medium']}>
+                                <div className={classes['u-margin-bottom-small']}>
                                     <h2 className={classes['heading-secondary']}>
                                         Let's work together
                                     </h2>
                                 </div>
                                 <div className={classes['form__group']}>
                                     <input id='name' type='text' className={classes['form__input']} placeholder='Name' required/>
-                                    <label for='name' className={classes['form__label']}>Name</label>
+                                    <label htmlFor='name' className={classes['form__label']}>Name</label>
                                 </div>
                                 <div className={classes['form__group']}>
                                     <input id='email' type='email' className={classes['form__input']} placeholder='Email' required/>
-                                    <label for='email' className={classes['form__label']}>Email</label>
+                                    <label htmlFor='email' className={classes['form__label']}>Email</label>
                                 </div>
                                 <div className={classes['form__group']}>
                                     <textarea id='message' className={classes['form__message']} placeholder='message'></textarea>
-                                    <label for='message' className={classes['form__label']}>Message</label>
+                                    <label htmlFor='message' className={classes['form__label']}>Message</label>
                                 </div>
                             </form>
                         </div>
