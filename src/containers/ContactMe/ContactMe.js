@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import classes from './ContactMe.module.scss';
+import Button from '../../components/UI/Button/Button';
 
 class ContactMe extends Component {
     render() {
@@ -26,6 +27,9 @@ class ContactMe extends Component {
                                 <div className={classes['form__group']}>
                                     <textarea rows='3' id='message' className={classes['form__message']} placeholder='message'></textarea>
                                     <label htmlFor='message' className={classes['form__label']}>Message</label>
+                                </div>
+                                <div className={classes['form_group']}>
+                                    <Button btnType="button" btnStyle="btn" color="primary">submit</Button>
                                 </div>
                             </form>
                         </div>
