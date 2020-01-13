@@ -1,0 +1,59 @@
+@import '../../App.scss';
+
+.footer {
+    background-color: $color-grey-dark-3;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+}
+
+.logo-box {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.logo {
+    width: 15rem;
+    height: auto;
+}
+
+.navigation {
+    border-top: 1px solid $color-grey-dark;
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    display: inline-block;
+
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+}
+
+.link {
+    &:link,
+    &:visited {
+        color: $color-grey-light-1;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        background-color: $color-grey-dark-3;
+    }
+
+    &:hover,
+    &:active {
+        color: $color-primary;
+    }
+}
+
+.description {
+    color: $color-grey-light-1;
+    border-top: 1px solid $color-grey-dark;
+    padding-top: 2rem;
+    width: 80%;
+    float: right;
+}
