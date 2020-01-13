@@ -7,6 +7,7 @@ import MySkills from './components/MySkills/MySkills';
 import Process from './components/Process/Process';
 import MyWorks from './containers/MyWorks/MyWorks';
 import ContactMe from './containers/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Process />
         <MyWorks />
         <ContactMe />
+        <Footer />
       </div>
     </BrowserRouter>
   );
