@@ -17,7 +17,7 @@ const navigation = () => {
                         <a href='#' className={classes['link']}>Process</a>
                     </li>
                     <li className={classes['item']}>
-                        <a href='#' className={classes['link']}>Works</a>
+                        <a href='#myWorks' className={classes['link']}>Works</a>
                     </li>
                     <li className={classes['item']}>
                         <a href='#' className={classes['link']}>Contact</a>
