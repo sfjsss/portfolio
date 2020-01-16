@@ -11,19 +11,19 @@ import Footer from './components/Footer/Footer';
 import Navigation from './components/Navigation/Navigation';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Navigation />
-        <Header />
-        <MySkills />
-        <Process />
-        <MyWorks />
-        <ContactMe />
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <Navigation />
+                <Header />
+                <MySkills />
+                <Process />
+                <MyWorks />
+                <ContactMe />
+                <Footer />
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
