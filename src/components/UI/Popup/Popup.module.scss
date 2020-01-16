@@ -1,0 +1,25 @@
+@import '../../../App.scss';
+
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-black, $alpha: .8);
+    z-index: 9999;
+
+    .content {
+        @include absCenter;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color-black, $alpha: .2);
+        border-radius: 3px;
+        text-align: center;
+        padding: 3rem 5rem;
+    }
+
+    .text {
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+    }
+}
