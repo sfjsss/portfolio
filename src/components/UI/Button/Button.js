@@ -19,7 +19,7 @@ const button = (props) => {
         output = <Link smooth to="/#myWorks" className={buttonClass}>{props.children}</Link>
     } 
     else {
-        output = <button className={buttonClass}>{props.children}</button>
+        output = <button onClick={props.clicked} className={buttonClass}>{props.children}</button>
     }
 
     return output;
