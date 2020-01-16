@@ -2,15 +2,30 @@ import React, { Component } from 'react';
 
 import classes from './ContactMe.module.scss';
 import Button from '../../components/UI/Button/Button';
+import Popup from '../../components/UI/Popup/Popup';
 
 class ContactMe extends Component {
+    state = {
+        popup: false
+    }
+
+    openPopupHandler = (event) => {
+        event.preventDefault()
+        this.setState({popup: true})
+    }
+
+    closePopupHandler = () => {
+        console.log('closepopup handler is clicked')
+        this.setState({popup: false})
+    }
+
     render() {
         return (
             <section className={classes['contact-me']}>
                 <div className={classes.row}>
                     <div className={classes.contact}>
                         <div className={classes['contact__form']}>
-                            <form className={classes.form}>
+                            <form className={classes.form} onSubmit={this.openPopupHandler}>
                                 <div className={classes['u-margin-bottom-medium']}>
                                     <h2 className={classes['heading-secondary']}>
                                         Let's work together
@@ -35,6 +50,7 @@ class ContactMe extends Component {
                         </div>
                     </div>
                 </div>
+                {this.state.popup ? <Popup closePopup={this.closePopupHandler} /> : null}
             </section>
         )
     }

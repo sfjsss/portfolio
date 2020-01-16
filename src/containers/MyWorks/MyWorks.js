@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import classes from './MyWorks.module.scss';
 import Project from './Project/Project';
-import Popup from '../../components/UI/Popup/Popup';
 
 class MyWorks extends Component {
     state = {
@@ -52,8 +51,7 @@ class MyWorks extends Component {
                 summary: "According to the client, new users had challenges understanding how to use the platform even after a walk-through. The client wanted a more intuitive interface to improve usability. A redesign was conducted."
             }
         ],
-        projectsType: "coding",
-        popup: true
+        projectsType: "coding"
     }
 
     selectUXHandler = () => {
@@ -106,7 +104,6 @@ class MyWorks extends Component {
                 <div className={classes['projects']}>
                     {displayedProjects}
                 </div>
-                { this.state.popup ? <Popup /> : null}
             </section>
         )
     }

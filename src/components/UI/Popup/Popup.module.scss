@@ -8,6 +8,7 @@
     left: 0;
     background-color: rgba($color-black, $alpha: .8);
     z-index: 9999;
+    transition: all .3s;
 
     .content {
         @include absCenter;

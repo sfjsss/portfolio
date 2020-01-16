@@ -3,7 +3,7 @@ import React from 'react'
 import classes from './Popup.module.scss';
 import Button from '../Button/Button';
 
-const popup = () => {
+const popup = (props) => {
     return (
         <div className={classes['popup']}>
             <div className={classes['content']}>
@@ -11,7 +11,7 @@ const popup = () => {
                 <p className={classes['text']}>
                     You have successfully sent your message. I will get back to you as soon as possible.
                 </p>
-                <Button btnType="button" btnStyle="btn" color="primary" animated>OK</Button>
+                <Button clicked={props.closePopup} btnType="button" btnStyle="btn" color="primary">OK</Button>
             </div>
         </div>
     )
