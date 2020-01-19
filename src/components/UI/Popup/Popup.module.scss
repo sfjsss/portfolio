@@ -17,6 +17,10 @@
         border-radius: 3px;
         text-align: center;
         padding: 3rem 5rem;
+
+        animation-name: scaleUp;
+        animation-duration: .4s;
+        animation-timing-function: ease-out;
     }
 
     .text {

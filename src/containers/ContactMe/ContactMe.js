@@ -15,7 +15,6 @@ class ContactMe extends Component {
     }
 
     closePopupHandler = () => {
-        console.log('closepopup handler is clicked')
         this.setState({popup: false})
     }
 
