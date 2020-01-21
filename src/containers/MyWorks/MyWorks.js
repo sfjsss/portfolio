@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import classes from './MyWorks.module.scss';
 import Project from './Project/Project';
+import axios from '../../axios-backend';
 
 class MyWorks extends Component {
     state = {
@@ -52,6 +53,16 @@ class MyWorks extends Component {
             }
         ],
         projectsType: "coding"
+    }
+
+    componentDidMount() {
+        axios.get('/projects/')
+            .then(res => {
+                console.log(res.data);
+            })
+            .catch(err => {
+                console.log(err);
+            })
     }
 
     selectUXHandler = () => {
