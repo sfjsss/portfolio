@@ -99,9 +99,9 @@ class MyWorks extends Component {
         }
 
         return (
-            <section className={classes['my-works']}>
+            <section id='works' className={classes['my-works']}>
                 <div className={`${classes['u-center-text']} ${classes['u-margin-bottom-big']}`}>
-                    <h2 id="myWorks" onClick={this.selectCodingHandler} className={codingProjectsClass}>
+                    <h2 onClick={this.selectCodingHandler} className={codingProjectsClass}>
                         Coding Projects
                     </h2>
                     <h2 className={`${classes['heading-secondary--deactivated']} ${classes['u-margin-sides-medium']}`}>

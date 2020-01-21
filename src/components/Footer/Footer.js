@@ -14,23 +14,23 @@ const footer = () => {
                     <div className={classes['navigation']}>
                         <ul className={classes['list']}>
                             <li className={classes['item']}> 
-                                <a href='#' className={classes['link']}>Skills</a>
+                                <a href='#skills' className={classes['link']}>Skills</a>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#' className={classes['link']}>Process</a>
+                                <a href='#process' className={classes['link']}>Process</a>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#' className={classes['link']}>Works</a>
+                                <a href='#works' className={classes['link']}>Works</a>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#' className={classes['link']}>Contact</a>
+                                <a href='#contact' className={classes['link']}>Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className={classes['col-1-of-2']}>
                     <p className={classes['description']}>
-                        The front end of this website is built with React along with SCSS. The content of this website is dynamically managed by a back-end server built with django. Source code available at <a href='#' className={classes['link']}>here</a>
+                        The front end of this website is built with React along with SCSS. The content of this website is dynamically managed by a back-end server built with django. Source code available at <a rel='noopener noreferrer' href='https://github.com/sfjsss' target='_blank' className={classes['link']}>here</a>
                     </p>
                 </div>
             </div>

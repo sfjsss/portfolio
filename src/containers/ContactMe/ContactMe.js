@@ -20,7 +20,7 @@ class ContactMe extends Component {
 
     render() {
         return (
-            <section className={classes['contact-me']}>
+            <section id='contact' className={classes['contact-me']}>
                 <div className={classes.row}>
                     <div className={classes.contact}>
                         <div className={classes['contact__form']}>

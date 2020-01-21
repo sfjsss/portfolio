@@ -17,16 +17,16 @@ const navigation = () => {
             <nav className={classes['nav']}>
                 <ul className={classes['list']}>
                     <li className={classes['item']}>
-                        <a href='#' className={classes['link']}>Skills</a>
+                        <a href='#skills' className={classes['link']} onClick={uncheckbox}>Skills</a>
                     </li>
                     <li className={classes['item']}>
-                        <a href='#' className={classes['link']}>Process</a>
+                        <a href='#process' className={classes['link']} onClick={uncheckbox}>Process</a>
                     </li>
                     <li className={classes['item']}>
-                        <a href='#myWorks' className={classes['link']} onClick={uncheckbox}>Works</a>
+                        <a href='#works' className={classes['link']} onClick={uncheckbox}>Works</a>
                     </li>
                     <li className={classes['item']}>
-                        <a href='#' className={classes['link']}>Contact</a>
+                        <a href='#contact' className={classes['link']} onClick={uncheckbox}>Contact</a>
                     </li>
                 </ul>
             </nav>
