@@ -16,7 +16,7 @@ const button = (props) => {
 
     let output;
     if (props.btnType === 'link') {
-        output = <Link smooth to="/#myWorks" className={buttonClass}>{props.children}</Link>
+        output = <Link smooth to="/#works" className={buttonClass}>{props.children}</Link>
     } 
     else {
         output = <button onClick={props.clicked} className={buttonClass}>{props.children}</button>

@@ -8,7 +8,7 @@ const mySkills = () => {
     return (
         <section className={classes['my-skills']}>
             <div className={`${classes['u-center-text']} ${classes['u-margin-bottom-big']}`}>
-                <h2 className={classes['heading-secondary']}>
+                <h2 id='skills' className={classes['heading-secondary']}>
                     My Skills
                 </h2>
             </div>

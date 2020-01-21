@@ -8,7 +8,7 @@ import testing_icon from '../../assets/img/process_icons/testing.svg';
 
 const process = () => {
     return (
-        <section className={classes.process}>
+        <section id='process' className={classes.process}>
 
             <div className={classes.row}>
                 <div className={classes['col-1-of-4']}>
