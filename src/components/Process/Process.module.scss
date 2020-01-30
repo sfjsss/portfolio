@@ -10,6 +10,10 @@
     & > * {
         transform: skewY(5deg);
     }
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .process-box {
@@ -20,6 +24,10 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: transform .3s;
+
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
 
     // height: 40rem;
 
