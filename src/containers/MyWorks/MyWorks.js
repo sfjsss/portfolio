@@ -58,7 +58,6 @@ class MyWorks extends Component {
     componentDidMount() {
         axios.get('/projects/')
             .then(res => {
-                console.log(res.data);
                 this.setState({
                     codingProjects: res.data
                 })
