@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './Footer.module.scss';
 import logo from '../../assets/img/logo_colored.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const footer = () => {
     return (
@@ -14,16 +15,16 @@ const footer = () => {
                     <div className={classes['navigation']}>
                         <ul className={classes['list']}>
                             <li className={classes['item']}> 
-                                <a href='#skills' className={classes['link']}>Skills</a>
+                                <Link smooth to='#skills' className={classes['link']}>Skills</Link>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#process' className={classes['link']}>Process</a>
+                                <Link smooth to='#process' className={classes['link']}>Process</Link>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#works' className={classes['link']}>Works</a>
+                                <Link smooth to='#works' className={classes['link']}>Works</Link>
                             </li>
                             <li className={classes['item']}> 
-                                <a href='#contact' className={classes['link']}>Contact</a>
+                                <Link smooth to='#contact' className={classes['link']}>Contact</Link>
                             </li>
                         </ul>
                     </div>
