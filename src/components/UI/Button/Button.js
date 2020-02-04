@@ -18,6 +18,9 @@ const button = (props) => {
     if (props.btnType === 'link') {
         output = <Link smooth to="/#works" className={buttonClass}>{props.children}</Link>
     } 
+    else if (props.btnType === 'anchor') {
+        output = <a href={props.pageLink} className={buttonClass} target='_blank'>{props.children}</a>
+    }
     else {
         output = <button onClick={props.clicked} className={buttonClass}>{props.children}</button>
     }

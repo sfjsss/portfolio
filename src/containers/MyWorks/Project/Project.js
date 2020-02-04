@@ -31,7 +31,7 @@ const project = (props) => {
                     <p className={classes['project__summary']}>
                         {props.information.summary}
                     </p>
-                    <Button btnStyle="btn" color="white" animated>Learn More</Button>
+                    <Button btnType="anchor" pageLink="https://github.com/sfjsss" btnStyle="btn" color="white" animated>Learn More</Button>
                 </div>
             </div>
         </div>
