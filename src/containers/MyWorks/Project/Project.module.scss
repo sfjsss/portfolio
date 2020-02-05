@@ -50,6 +50,14 @@
     &__picture {
         background-size: cover;
         height: 23rem;
+
+        @include respond(tab-port) {
+            height: 30rem;
+        }
+
+        @include respond(phone) {
+            height: 23rem;
+        }
     }
 
     &__heading {
