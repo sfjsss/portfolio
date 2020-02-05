@@ -35,21 +35,24 @@ class MyWorks extends Component {
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/artist_craftsman_supply.jpg",
                 projectName: "Artist & Craftsman",
                 stacks: [{name: "User Survey"}, {name: "Heuristic Evaluation"}, {name: "User Interview"}, {name: "User Scenario"}],
-                summary: "Customers have been complaining about the online shopping experience not being smooth enough. The goal of this project was to redesign the website and improve user experience."
+                summary: "Customers have been complaining about the online shopping experience not being smooth enough. The goal of this project was to redesign the website and improve user experience.",
+                source_code: "https://www.tianyulidesign.com/artist-craftsman-supply"
             },
             {
                 id: "ux02",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/the_boring_company.jpg",
                 projectName: "The Boring Company",
                 stacks: [{name: "C&C Analysis"}, {name: "User Survey"}, {name: "User Interview"}, {name: "User Scenario"}],
-                summary: "The Boring company is building an underground transportation service to overcome rush hour traffic especially in LA. The goal of this project was to design an e-ticketing system for them."
+                summary: "The Boring company is building an underground transportation service to overcome rush hour traffic especially in LA. The goal of this project was to design an e-ticketing system for them.",
+                source_code: "https://www.tianyulidesign.com/the-boring-company"
             },
             {
                 id: "ux03",
                 bgImage: "https://tianyuli-portfolio-files.s3-us-west-2.amazonaws.com/forklift.jpg",
                 projectName: "Forklift",
                 stacks: [{name: "C&C Analysis"}, {name: "Heuristic Evaluation"}, {name: "User Interview"}, {name: "Affinity Mapping"}],
-                summary: "According to the client, new users had challenges understanding how to use the platform even after a walk-through. The client wanted a more intuitive interface to improve usability. A redesign was conducted."
+                summary: "According to the client, new users had challenges understanding how to use the platform even after a walk-through. The client wanted a more intuitive interface to improve usability. A redesign was conducted.",
+                source_code: "https://www.tianyulidesign.com/forklift"
             }
         ],
         projectsType: "coding"
