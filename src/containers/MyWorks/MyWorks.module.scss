@@ -7,15 +7,25 @@
 
     .heading-secondary {
         cursor: pointer;
+
+        @include respond(tab-port) {
+            display: block;
+        }
     }
 
     .heading-secondary--deactivated {
         cursor: pointer;
+
+        @include respond(tab-port) {
+            display: block;
+        }
     }
 
     @include respond(tab-port) {
         padding: 20rem 0 10rem 0;
     }
+
+    
 }
 
 .projects {
