@@ -1,7 +1,13 @@
+@import '../../../App.scss';
+
 .composition {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    @include respond(phone) {
+        display: none;
+    }
 }
 
 .photo {
