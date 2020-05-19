@@ -19,28 +19,28 @@ const mySkills = () => {
                         Coding Skills
                     </h3>
                     <p className={classes.paragraph}>
-                        <span strong="true">PROGRAMMING LANGUAGES:</span> Python, JavaScript, TypeScript, Java, HTML, CSS
+                        <span strong="true">PROGRAMMING LANGUAGES:</span> Java, JavaScript, TypeScript, Python, HTML, CSS
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">FRAMEWORKS:</span> Flask, Django, Node Express, Spring Boot, Angular, React
+                        <span strong="true">FRAMEWORKS:</span> React, React-Native, Angular, Spring, Node Express, Django, Flask
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">DATABASES:</span> MySQL, SQLite, MongoDB, Firebase
+                        <span strong="true">DATABASES:</span> MySQL, SQLite, MongoDB, PostgreSQL
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">LIBRARIES:</span> Bootstrap, jQuery, Chart.js, Socket.io, Axios, Redux, Jest, Enzyme
+                        <span strong="true">LIBRARIES:</span>  Bootstrap, React Bootstrap, Angular Material, jQuery, Socket.io, Redux, NgRx, Junit, Mockito
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">SOFTWARE VERSION CONTROL:</span> Git, Github
+                        <span strong="true">DEVOPS:</span> Git, Github, Jenkins, AWS
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">METHODOLOGIES/CONCEPTS:</span> Test-Driven Development, RestfulAPI, OOP, JSON, AJAX
+                        <span strong="true">METHODOLOGIES/CONCEPTS:</span> Test-Driven Development, REST, SOAP, OOP, Service Oriented Architect, Microservices
                     </p>
 
                     <h3 className={`${classes['heading-tertiary']} ${classes['u-margin-bottom-small']} ${classes['u-margin-top-medium']}`}>
                         UX/UI Skills
                     </h3>
-                    <p className={`${classes.paragraph} ${classes['u-margin-bottom-medium']}`}>
+                    <p className={`${classes.paragraph} ${classes['u-margin-bottom-small']}`}>
                         Heuristic Evaluation, C&C Analysis, Contextual Inquiry, Affinity Mapping, Journey Mapping, Card Sorting, Site Maps, Responsive Design, Sketch, Principle, Wireframing, Usability Testing, Prototyping
                     </p>
 
