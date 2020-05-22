@@ -19,10 +19,10 @@ const project = (props) => {
                 </h4>
                 <div className={classes['project__details']}>
                     <ul>
-                        <li>{props.information.stacks[0].name}</li>
-                        <li>{props.information.stacks[1].name}</li>
-                        <li>{props.information.stacks[2].name}</li>
-                        <li>{props.information.stacks[3].name}</li>
+                        <li>{props.information.stacks[0]}</li>
+                        <li>{props.information.stacks[1]}</li>
+                        <li>{props.information.stacks[2]}</li>
+                        <li>{props.information.stacks[3]}</li>
                     </ul>
                 </div>
             </div>
