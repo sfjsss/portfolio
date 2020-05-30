@@ -19,19 +19,19 @@ const mySkills = () => {
                         Coding Skills
                     </h3>
                     <p className={classes.paragraph}>
-                        <span strong="true">PROGRAMMING LANGUAGES:</span> Java, JavaScript, TypeScript, Python, HTML, CSS
+                        <span strong="true">PROGRAMMING LANGUAGES:</span> Java, JavaScript, TypeScript, HTML, CSS, SCSS
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">FRAMEWORKS:</span> React, React-Native, Angular, Spring, Node Express, Django, Flask
+                        <span strong="true">FRAMEWORKS:</span> Angular, React, React-Native, Spring, J2EE, Hibernate, Kafka
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">DATABASES:</span> MySQL, SQLite, MongoDB, PostgreSQL
+                        <span strong="true">DATABASES:</span> MySQL, SQLite, PostgreSQL
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">LIBRARIES:</span>  Bootstrap, React Bootstrap, Angular Material, jQuery, Socket.io, Redux, NgRx, Junit, Mockito
+                        <span strong="true">LIBRARIES:</span> Bootstrap, React Bootstrap, Angular Material, jQuery, Socket.io, Redux, NgRx, Junit, Mockito
                     </p>
                     <p className={classes.paragraph}>
-                        <span strong="true">DEVOPS:</span> Git, Github, Jenkins, AWS
+                        <span strong="true">DEVOPS:</span> Git, Github, Jenkins, AWS, Docker, Linux, Tomcat
                     </p>
                     <p className={classes.paragraph}>
                         <span strong="true">METHODOLOGIES/CONCEPTS:</span> Test-Driven Development, REST, SOAP, OOP, Service Oriented Architect, Microservices
