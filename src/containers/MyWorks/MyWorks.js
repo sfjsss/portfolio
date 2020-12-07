@@ -39,7 +39,7 @@ class MyWorks extends Component {
                 projectName: "Artist & Craftsman",
                 stacks: ["User Survey", "Heuristic Evaluation", "User Interview", "User Scenario"],
                 summary: "Customers have been complaining about the online shopping experience not being smooth enough. The goal of this project was to redesign the website and improve user experience.",
-                source_code: "https://www.tianyulidesign.com/artist-craftsman-supply"
+                source_code: "https://alandron06281990.wixsite.com/website-1/artist-craftsman-supply"
             },
             {
                 id: "ux02",
@@ -47,7 +47,7 @@ class MyWorks extends Component {
                 projectName: "The Boring Company",
                 stacks: ["C&C Analysis", "User Survey", "User Interview", "User Scenario"],
                 summary: "The Boring company is building an underground transportation service to overcome rush hour traffic especially in LA. The goal of this project was to design an e-ticketing system for them.",
-                source_code: "https://www.tianyulidesign.com/the-boring-company"
+                source_code: "https://alandron06281990.wixsite.com/website-1/the-boring-company"
             },
             {
                 id: "ux03",
@@ -56,7 +56,7 @@ class MyWorks extends Component {
                 
                 stacks: ["C&C Analysis", "Heuristic Evaluation", "User Interview", "Affinity Mapping"],
                 summary: "According to the client, new users had challenges understanding how to use the platform even after a walk-through. The client wanted a more intuitive interface to improve usability. A redesign was conducted.",
-                source_code: "https://www.tianyulidesign.com/forklift"
+                source_code: "https://alandron06281990.wixsite.com/website-1/forklift"
             }
         ],
         projectsType: "coding"
